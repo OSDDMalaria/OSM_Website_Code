@@ -167,15 +167,13 @@ function projectActivity(feed) {
     projectActivity = '<div class="project-activity-item allTheLabels' + labels + '"><a href="' + itemLink + '" target="_blank"><img src="images/' + data[i].state + '.gif"' + 'class="project-activity-image"/><span class=title>' +  "<strong>" + itemTitle + '</strong></span></a>';
 
     var labelText;
-    var baseLink = "https://github.com/OpenSourceMalaria/OSM_To_Do_List/labels/";
-
     if (itemLabels.length > 0) {
       labelText = "<div>";
       for (var idx = 0; idx < itemLabels.length; ++idx) {
-
         labelText = labelText + '<button class ="gitbutton ' + itemLabels[idx].name.replace(/ /g, "_").split("/").join("_") + '" style="background-color:' + '#' + itemLabels[idx].color
-        labelText = labelText + '" type="button" onclick="window.open(\'' + baseLink
-        labelText = labelText + encodeURIComponent(itemLabels[idx].name) + "')\">" + itemLabels[idx].name + '</button>';
+        labelText = labelText + '" type="button" onclick="window.open(\''
+        labelText = labelText + "https://github.com/" + data[i].labels[idx].url.split("/")[4] + "/" + data[i].labels[idx].url.split("/")[5] + "/" + data[i].labels[idx].url.split("/")[6] + "/" + data[i].labels[idx].url.split("/")[7]
+        labelText = labelText + "')\">" + itemLabels[idx].name + '</button>';
 
         var foundIt = false;
         for (var ii = 0; ii < allLabels.length; ii++){
