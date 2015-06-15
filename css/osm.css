@@ -121,7 +121,6 @@
 
 #phone-leader-feed{
     display: none;
-    width: 73%;
     margin: 20px auto 20px auto;
     font-size: 14px;
 }
@@ -671,7 +670,6 @@ span[class^="indicator-"] {
     font-size: 14px;
     text-align: left;
     margin: 30px auto;
-    width: 73%;
 }
 
 .off-page{
