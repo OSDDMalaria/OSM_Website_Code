@@ -243,7 +243,7 @@ function projectActivity(feed) {
     }
   }
 
-  var lastLeader = 5;
+  var lastLeader = Math.min(5,leaders.length);
   var baseWidth = 50;
   var maxCount = 0;
   var thisWidth;
@@ -752,10 +752,4 @@ function testDates() {
 Date.prototype.addHours = function(h) {
   this.setTime(this.getTime() + (h*60*60*1000));
   return this;
-}
-
-function leaders(data) {
-  "use strict";
-
-
 }
