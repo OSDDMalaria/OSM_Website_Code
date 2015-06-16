@@ -63,11 +63,12 @@ about 10 minutes for updated information to become available.
 Content Management Solution
 ---------------------------
 
-The lists of team members and sponsors are maintained on GitHub, in a public repository.
+The lists of team members, sponsors, and the Github repositories used for populating the Project Activity list
+ are maintained on GitHub, in a public repository.
 
 The repository is : https://github.com/OpenSourceMalaria/OSM_Website_Data/issues
 
-There are two items in the issues list. They are "team" and "sponsors".
+There are three items in the issues list. They are "team", "sponsors", and "issue_lists".
 
 Team
 ----
@@ -145,6 +146,16 @@ Sponsors
     If all three elements are specified for a sponsor, the image is displayed and is a link to the sponsor's url,
     and the hover text is the sponsor name.
 
+
+Issue_lists
+===========
+
+The body of the "issues_lists" issue is just the name9s) of the issue list repositories where each repository
+name is on its own line, as follows:
+
+OSM_To_Do_List
+Second_Repo
+Third_Repo
 
 Setting up for development
 ==========================
