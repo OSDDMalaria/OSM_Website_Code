@@ -123,6 +123,7 @@
     display: none;
     margin: 20px auto 20px auto;
     font-size: 14px;
+
     width: 100%;
 }
 
@@ -671,6 +672,7 @@ span[class^="indicator-"] {
     font-size: 14px;
     text-align: left;
     margin: 30px auto;
+
     width: 100%;
 }
 
