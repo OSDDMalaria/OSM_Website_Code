@@ -619,6 +619,10 @@ span[class^="indicator-"] {
     margin: 0 5px;
 }
 
+.social-icon:hover {
+    text-decoration: none;
+}
+
 #social a:hover {
     text-decoration: none;
 }
@@ -627,7 +631,8 @@ span[class^="indicator-"] {
     margin-left: 5px;
     margin-right: 30px;
     width: 39px;
-    height: 39px;}
+    height: 39px;
+}
 
 .notebook-img{
     height: 80px;
