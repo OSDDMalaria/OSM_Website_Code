@@ -123,8 +123,7 @@
     display: none;
     margin: 20px auto 20px auto;
     font-size: 14px;
-
-    width: 100%;
+    width: 73%;
 }
 
 #phone-leader-feed > div{
@@ -161,9 +160,6 @@
     padding: 20px 18px;
 }
 
-.little-button.meet-the-team-target img {
-    padding-bottom: 16px;
-}
 .little-button.set{
     background-color: #6AA7AE;
 }
@@ -672,7 +668,7 @@ span[class^="indicator-"] {
     font-size: 14px;
     text-align: left;
     margin: 30px auto;
-    width: 100%;
+    width: 73%;
 }
 
 .off-page{
@@ -951,6 +947,19 @@ hr.tweet{
     }
 }
 
+@media  screen and (min-width:1000px) and (max-width: 1200px){
+    .big-button{
+        width: 200px;
+        font-size: 10px;
+    }
+}
+@media  screen and (min-width:768px) and (max-width: 1000px){
+    .big-button{
+        width: 150px;
+        font-size: 10px;
+    }
+}
+
 /*Tiny browser width and iPhone */
 @media  screen and (min-width: 0px) and (max-width: 767px),
 screen and (max-device-width: 640px) and (max-device-height: 960px){
@@ -1016,7 +1025,7 @@ screen and (max-device-width: 640px) and (max-device-height: 960px){
     }
 
     .para {
-        margin-left: 10%;
+        /*margin-left: 10%;*/
     }
 
     .intro {
