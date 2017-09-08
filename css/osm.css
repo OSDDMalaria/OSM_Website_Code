@@ -846,6 +846,62 @@ hr.tweet{
     overflow-wrap: break-word;
 }
 
+.clear{
+    clear: both;
+}
+
+.daily-show{
+    background-image: url('../images/pixel-bg.png');
+    padding: 15px 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 30px 0px;
+    border-radius: 7px;
+}
+
+.daily-show .left{
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+}
+
+.daily-show .right{
+    float: left;
+    width: 65%;
+    padding-left: 5%;
+}
+
+.daily-show h1{
+    color: #67AEBB;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.daily-show p{
+    font-size: 15px;
+    color: #333333;
+    line-height: 23px;
+    width: 80%;
+}
+
+.daily-show a{
+    background-color: #6AA7AE;
+    border-radius: 7px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFF;
+    font-weight: bold;
+    box-shadow: 0 3px 0 0 #3B747B;
+    cursor: pointer;
+}
+
+.daily-show a:hover{
+    background-color: #89BCC2;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
 /* Handling for mobile devices*/
 
 /* iPad (original and Retina) */
@@ -988,6 +1044,20 @@ hr.tweet{
 /*Tiny browser width and iPhone */
 @media  screen and (min-width: 0px) and (max-width: 767px),
 screen and (max-device-width: 640px) and (max-device-height: 960px){
+    .daily-show .left{
+        width: 100%;
+        text-align: center;
+    }
+
+    .daily-show .right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .daily-show .right p{
+        width: 100%;
+        text-align: center;
+    }
 
     .phone{
         display: block;
